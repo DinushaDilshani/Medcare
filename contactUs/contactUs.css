@@ -1,0 +1,228 @@
+
+main{
+    min-height:88vh;
+        }
+.nav{
+    padding-top: 10px;
+    padding-left: 7%;
+    padding-right: 5%;
+    padding-bottom: 0px;
+}
+.logo{
+    font-size: 1rem;
+    margin-right: 250px;
+    padding-top: 1%;
+}
+.nav ul{
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    justify-content: space-around;   
+}
+.nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+.nav ul li a:hover{
+    outline: 5px;
+    color:#054f7d;
+    border-color: #fff #fff #054f7d #fff;
+    border-style: solid;
+    border-width: 5px;
+}
+
+.activeNav{
+    outline: 5px;
+    color:#054f7d;
+    border-color: #fff #fff #054f7d #fff;
+    border-style: solid;
+    border-width: 5px;
+}
+
+.info{
+    margin-top: 5%;
+}
+.message textarea{
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+}
+.userInput{
+    margin-top: 5%;
+}
+.userInput input{
+    width: 40%;
+    padding: 5px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+
+}
+.subject{
+    margin-top: 5%;
+}
+.subject input{
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+
+}
+.email{
+    margin-right: 0px;
+    float: right;
+}
+.submit input{
+    padding: 2%;
+    color: #fff;
+    background-color: blue;
+    width:100%;
+}
+
+.infoDetail i {
+    font-size: 30px;
+   
+}
+
+.icon{
+    width: 100%;
+    display: grid;
+    justify-items: center;
+    align-items:center;
+}
+.fa{
+    color: #054f7d;
+}
+.form{
+    background-color: rgb(248, 248, 240);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+ 
+}
+.gmail{
+    
+    color: #fff;
+}
+.location{
+  
+    color: #fff;
+}
+.fb{
+   
+    color: #fff;
+}
+.twitter{
+    
+    color: #fff;
+}
+footer{	
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+	padding:2%;
+	background-color:#323232;
+	color:#fff;
+	padding: 10px;
+    padding-left: 7%;
+    padding-right: 5%;
+    margin-bottom: 0;
+    }
+
+	.socialMedia{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:25px;
+    padding: 10px;
+    padding-left: 7%;
+    padding-right: 5%;
+}
+
+@media only screen and (min-width: 750px){
+    .form{
+        background-color: rgb(248, 248, 240);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        min-height:79vh;
+    }
+
+    .nav{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        padding-top: 10px;
+        padding-left: 7%;
+        padding-right: 5%;
+        padding-bottom: 0px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .nav ul{
+        justify-content:space-between;
+        width: 30%;
+    }
+    
+    .formContent{
+        display: flex;
+        gap:30px;
+        width: 70%;
+        margin: auto;
+        padding: 15px;
+    }
+    .formContent form{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            width:60%;       
+        }
+
+    .info{
+            width: 40%;
+            margin-top: 5%;
+        }
+    .icon{
+        width: 100%;
+        display: flex;
+        justify-content: start;
+        align-items:center;
+        gap:20px;
+    }
+	footer{	
+        display:flex;
+        justify-content:space-between;
+        align-items:center;
+        padding:2%;
+        background-color:#323232;
+        color:#fff;
+        padding: 10px;
+        padding-left: 7%;
+        padding-right: 5%;
+        margin-bottom: 0px;	
+	}
+	.socialMedia{
+        display:flex;
+        justify-content:space-between;
+        align-items:center;
+        gap:25px;
+        padding: 10px;
+        padding-left: 7%;
+        padding-right: 5%;
+    }
+
+    .gmail{      
+        color: #fff;
+    }
+
+    .location{   
+        color: #fff;
+    }
+
+    .fb{   
+        color: #fff;
+    }
+
+    .twitter{      
+        color: #fff;
+    }
+
+}
